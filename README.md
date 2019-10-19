@@ -9,6 +9,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ```bash
 pip install similarweb-scraper
 
+### proxycrawl api
+Before your use this library , you need to register a account in https://proxycrawl.com/ and use the normal api key token instead of the javascript one. First 1000 requestes are free 
+
 ## Usage
 
 from similarweb_scraper import scraper

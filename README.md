@@ -1,6 +1,6 @@
 # similarweb_scraper
 
-similarweb_scraperis is a python library for scraping similarweb with proxycrawl api and it can bypass the distil protection so far. It also provides some functionality for transforming scraped data into pd dataframe.
+similarweb_scraperis is a python library for scraping similarweb with pywinauto.It also provides some functionality for transforming scraped data into pd dataframe.
    
 ## Installation
 
@@ -9,7 +9,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ```bash
 pip install similarweb-scraper
 
-### proxycrawl api
+### html extract
+
 Before your use this library , you need to register a account in https://proxycrawl.com/ and use the normal api key token instead of the javascript one. First 1000 requestes are free 
 
 ## Usage

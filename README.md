@@ -28,7 +28,7 @@ https://www.laptopmag.com/articles/how-to-create-desktop-shortcuts-for-web-pages
 def url_extraction(webname , aboaddress):
    
     """
-    go to the website through the api
+    extract the html file
     """
     ### empty data
     webpage = None

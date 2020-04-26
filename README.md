@@ -2,7 +2,7 @@
 
 similarweb_scraperis is a python library for scraping similarweb with pywinauto.It also provides some functionality for transforming scraped data into pd dataframe.
    
-## Installation
+## Installation and Usage
 ```bash
 ### install
 1.pip install similarweb-scraper
@@ -23,8 +23,8 @@ https://www.laptopmag.com/articles/how-to-create-desktop-shortcuts-for-web-pages
 
 5.After you download all the html file, you can scrape the file through similarweb-scraper
 
-### Example for reading the data from html file and extract the traffic of the website
 
+### Example for reading the data from html file and extract the traffic of the website
 def url_extraction(webname , aboaddress):
    
     """
@@ -83,6 +83,12 @@ if __name__ == '__main__':
     simweb_scraper = similarweb_get(web_name , html_folder_path)   
 
 ```
+## metrics_type name :
+Apart from'monthly_traffic_data', you can try other metrics as well
+'country_share',
+'traffic_share',
+ engagement',
+ More function will be available soon
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

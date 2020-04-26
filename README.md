@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
 ```
 ## metrics_type name :
-Apart from'monthly_traffic_data', you can try other metrics as well
+Apart from'monthly_traffic_data', you can try other metrics as well like
 'country_share',
 'traffic_share',
  engagement',
